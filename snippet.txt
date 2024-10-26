@@ -1,0 +1,30 @@
+<model-viewer src="fad1f8a62d3848d0be664339e6f3b1a2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0.33" environment-image="SPACE.jpg" camera-orbit="-147.9deg 59.06deg 16.91m" field-of-view="22.66deg" autoplay skybox-image="SPACE.jpg" shadow-softness="1" exposure="1.07">
+    <button class="Hotspot" slot="hotspot-1" data-surface="17 0 3759 3761 3762 0.497 0.189 0.314" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">SUN</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-surface="16 0 939 940 941 0.649 0.025 0.326" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">MERCURY</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-surface="15 0 2263 2265 2266 0.193 0.680 0.126" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">VENUS</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-surface="13 0 3827 3829 3830 0.480 0.358 0.162" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">EARTH</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-surface="12 0 1991 1993 1994 0.012 0.413 0.575" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">MARS</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-surface="11 0 719 721 722 0.226 0.719 0.055" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">JUPITER</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-surface="10 0 1659 1661 1662 0.028 0.923 0.049" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">SATURN</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-surface="8 0 1815 1817 1818 0.461 0.462 0.077" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLUTO</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-surface="9 0 1787 1788 1789 0.146 0.493 0.361" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">URANUS</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
